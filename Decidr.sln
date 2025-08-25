@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decidr.Core", "src\Decidr.Core\Decidr.Core.csproj", "{EA79AD32-8146-4162-B86F-1D8CCE913243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decidr.JsonDerivedTypeGeneration", "src\Decidr.JsonDerivedTypeGeneration\Decidr.JsonDerivedTypeGeneration.csproj", "{4522F4C2-9BB4-4540-B8F7-7B57F38193CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decidr.EventSourcing", "src\Decidr.EventSourcing\Decidr.EventSourcing.csproj", "{16DDEAEA-08B8-494A-B64D-C73B8D5D6D2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{19BF500A-6D33-4D41-A346-34035E340CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcingSample", "samples\EventSourcingSample\EventSourcingSample.csproj", "{CF4F1FA6-129E-403C-BBAE-35B16FC3768C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decidr.EventSourcing.EfCore", "src\Decidr.EventSourcing.EfCore\Decidr.EventSourcing.EfCore.csproj", "{5049413D-9AAA-42AB-873B-D55B6845D322}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA79AD32-8146-4162-B86F-1D8CCE913243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA79AD32-8146-4162-B86F-1D8CCE913243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA79AD32-8146-4162-B86F-1D8CCE913243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA79AD32-8146-4162-B86F-1D8CCE913243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4522F4C2-9BB4-4540-B8F7-7B57F38193CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4522F4C2-9BB4-4540-B8F7-7B57F38193CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4522F4C2-9BB4-4540-B8F7-7B57F38193CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4522F4C2-9BB4-4540-B8F7-7B57F38193CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16DDEAEA-08B8-494A-B64D-C73B8D5D6D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DDEAEA-08B8-494A-B64D-C73B8D5D6D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DDEAEA-08B8-494A-B64D-C73B8D5D6D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DDEAEA-08B8-494A-B64D-C73B8D5D6D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4F1FA6-129E-403C-BBAE-35B16FC3768C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4F1FA6-129E-403C-BBAE-35B16FC3768C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4F1FA6-129E-403C-BBAE-35B16FC3768C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4F1FA6-129E-403C-BBAE-35B16FC3768C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5049413D-9AAA-42AB-873B-D55B6845D322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5049413D-9AAA-42AB-873B-D55B6845D322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5049413D-9AAA-42AB-873B-D55B6845D322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5049413D-9AAA-42AB-873B-D55B6845D322}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA79AD32-8146-4162-B86F-1D8CCE913243} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4522F4C2-9BB4-4540-B8F7-7B57F38193CE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{16DDEAEA-08B8-494A-B64D-C73B8D5D6D2F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CF4F1FA6-129E-403C-BBAE-35B16FC3768C} = {19BF500A-6D33-4D41-A346-34035E340CFF}
+		{5049413D-9AAA-42AB-873B-D55B6845D322} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C981F8E4-BB00-400D-80DD-567CA564B02F}
+	EndGlobalSection
+EndGlobal
