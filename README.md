@@ -1,2 +1,2 @@
 # Decidr
-A simple decider pattern library for C#
+A simple decider pattern library for C#.

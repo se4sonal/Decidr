@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <PackageId>Se4sonal.Decidr</PackageId>
+	  <Title>Se4sonal.Decidr</Title>
+	  <Description>A decider pattern package.</Description>
+	  <Summary>A decider pattern package.</Summary>
+	  <AssemblyName>Se4sonal.Decidr</AssemblyName>
+	  <RootNamespace>Se4sonal.Decidr</RootNamespace>
+	  <Version>0.0.1</Version>
+	  <TargetFramework>net9.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
