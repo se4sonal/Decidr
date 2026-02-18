@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net9.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <PackageId>Decidr.EventSourcing</PackageId>
+	  <RootNamespace>Decidr</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Decidr.Core\Decidr.Core.csproj" />
+    <ProjectReference Include="..\Decidr.JsonDerivedTypeGeneration\Decidr.JsonDerivedTypeGeneration.csproj" OutputItemType="Analyzer" />
+  </ItemGroup>
+
+</Project>
